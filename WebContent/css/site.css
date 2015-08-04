@@ -1,0 +1,64 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#page{
+	width:1000px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+img{
+	border:0;
+	padding: 0;
+	display: block;
+}
+
+.vignette{
+	width: 50%;
+	height: 50%;
+}
+
+/* header{ */
+/* 	background-color: #FFA07A; */
+/* 	width: 100%; */
+/* 	height:100px;  */
+/* 	position: relative; */
+/* } */
+
+/* nav{ */
+/* 	background-color: #FFDAB9; */
+/* 	width: 100%; */
+/* 	height:30%; */
+/* 	text-align: left; */
+/* 	position: absolute; */
+/* 	bottom: 0; */
+/* 	ver */
+/* } */
+
+/* nav > a{ */
+/* 	 font-family: Arial,sans-serif; */
+/*      font-size: 1.2em; */
+/*      text-align: center; */
+/*      color: white; */
+/*      background: #444; */
+/*      margin-left: 10px; */
+/*      padding: 3px; */
+/*      border-radius : 10px; */
+/*      text-decoration: none; */
+/* } */
+
+#main{
+	background-color: #DCDCDC;
+	width: 100%;
+	height: 800px;
+	margin: auto;	
+}
+
+/* footer{ */
+/* 	background-color: #ADFF2F; */
+/* 	width: 100%; */
+/* 	height: 50px; */
+/* 	margin: auto; */
+/* } */

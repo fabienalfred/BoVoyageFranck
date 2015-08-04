@@ -1,0 +1,20 @@
+[class*="grille"] {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -1em;
+  letter-spacing: -0.31em;
+  text-rendering: optimizespeed;
+}
+
+[class*="grille"] > * {
+   flex: 0 0 auto;
+   margin-left: 1em;
+  display: inline-block;
+  vertical-align: top;
+  letter-spacing: normal;
+  text-rendering: auto;
+}
+[class*="grille"] > * {
+  width: calc(100% * 1 / 2 - 1em - .01px);
+}

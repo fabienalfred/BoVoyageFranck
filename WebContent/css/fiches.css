@@ -1,0 +1,46 @@
+#grid table{
+	width: 90%;
+	margin-left:auto;
+	margin-right: auto;
+}
+#grid table tr td{
+	padding: 5px;
+}
+.fiche{
+	width:100%;
+	height: 250px;
+	display: inline-block;
+}
+.images{
+	position: relative;
+}
+.images > img{
+	width :445px;
+	height: 250px;
+}
+.legend{
+	background-color: grey;
+	color: white;
+	font-size: larger;
+	padding-left: 0.2em;
+	cursor: pointer;
+}
+
+.legend > a:LINK,
+.legend > a:VISITED,
+.legend > a:ACTIVE,
+.legend > a:HOVER
+{
+	color: inherit;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+.promo{
+	position: absolute;
+	top:0;
+}
+.dernier{
+	position: absolute;
+	top:0;
+}
